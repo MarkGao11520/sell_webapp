@@ -1,0 +1,10 @@
+border-1px($color)
+  position: relative  //相对布局
+  &:after
+    display: block    //块级
+    position: absolute   //绝对定位
+    left: 0
+    bottom: 0
+    width: 100%
+    border-top: 1px solid $color
+    content: ' '
